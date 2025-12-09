@@ -1,0 +1,54 @@
+.cards-g {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1em 0;
+}
+
+.cards {
+    width: 250px;
+    border-radius: 1em;
+    overflow: hidden;
+    border-color: var(--secondary-color);
+    border-style: solid;
+    background-color: var(--secondary-color);
+    border-width: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 2.5em;
+    transition: 0.5s ease;
+    cursor: pointer;
+    padding: 1.5em;
+}
+
+.cards h3 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.cards p {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.icon-align {
+    text-align: center;
+}
+
+.fa-handshake, .fa-star, .fa-users, .fa-caret-right {
+    font-size: 90px;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    color: var(--accent-color);
+}
+
+.fa-bag-shopping, .fa-screwdriver-wrench, .fa-magnifying-glass {
+    font-size: 90px;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    color: var(--primary-color);
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}

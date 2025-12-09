@@ -1,0 +1,60 @@
+.contact-dub-info {
+    display: flex;
+    justify-content: center;
+    margin: 4em 0;
+}
+
+.contact-det, .contact-fm {
+    display: inline-block;
+    margin: 0 5em;
+}
+
+.contact-det h1 {
+    font-size: var(--font-size-h1);
+    padding-bottom: 0.5em;
+}
+
+.contact-det p {
+    font-size: var(--font-size-body);
+}
+
+.contact-det h2 {
+   margin: 0.5em 0;
+}
+
+.phone-num, .email {
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.phone-num .fa-phone, .email .fa-envelope {
+    color: var(--accent-color);
+    font-size: 30px;
+}
+
+
+form input, form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: lightgray;
+    padding: 15px;
+    margin: 15px 0;
+    color: black;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.contact-fm button {
+    height: 60px;
+    width: 205px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    border: var(--accent-color);
+    background-color: var(--accent-color);
+    color: #fff;
+}

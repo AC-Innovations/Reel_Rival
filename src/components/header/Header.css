@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+
+.hd {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  padding: 10px 5%;
+  transition: transform 400ms cubic-bezier(0.25, 0.8, 0.25, 1),
+              background-color 400ms ease,
+              backdrop-filter 400ms ease,
+              box-shadow 400ms ease;
+  transform: translateY(0);
+  will-change: transform;
+}
+
+.hd.in-hero {
+  background-color: transparent;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+.hd.fixed {
+  background-color: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.hd.show {
+  transform: translateY(0);
+}
+
+.hd.hide {
+  transform: translateY(-100%);
+}
+
+.hd.fixed.blur {
+  background-color: rgba(0, 0, 0, 0.35);
+  backdrop-filter: saturate(140%) blur(10px);
+  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.16);
+  padding: 10px 5%;
+}
+
+.wrapper nav {
+  justify-content: center;
+}
+
+.wrapper nav ul li a {
+  transition: 0.6s;
+}
+
+.wrapper ul {
+  padding: 5px 30px;
+  border-radius: 10px;
+  background-color: #47474780;
+  backdrop-filter: blur(40px);
+}
+
+.wrapper ul a {
+  padding: 10px;
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s, filter 0.3s;
+}
+
+.wrapper ul a:hover,
+.wrapper ul a.active {
+  background-color: rgb(255, 255, 255, 0.2);
+  padding: 10px 15px;
+}
+
+.wrapper ul li:hover a {
+  filter: none;
+}
+
+.wrapper ul li:hover ~ li a {
+  filter: blur(2px);
+}

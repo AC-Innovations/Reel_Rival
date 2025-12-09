@@ -1,0 +1,43 @@
+.gearing {
+    margin-bottom: 3em;
+}
+
+.works {
+    margin: 2em 0;
+}
+
+.gearing h1, .works h1 {
+    text-align: center;
+}
+
+.works p {
+    text-align: center;
+}
+
+.gearing .text {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.gearing header p {
+    width: 60%;
+    text-align: center;
+    padding: 1.5em 0;
+    margin: auto;
+}
+
+.imgs2 img {
+    border-radius: 1em;
+    width: 35vw;
+}
+
+.cta-s {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10em;
+    margin: 2em 0;
+}
+
+.cta-s h1 {
+    text-align: center;
+}

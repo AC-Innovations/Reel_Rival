@@ -1,0 +1,16 @@
+.products h2 {
+    margin: 1em 0;
+}
+
+.products .cards {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.fa-fish, .fa-fish-fins, .fa-screwdriver, .fa-wrench {
+    font-size: 90px;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em;
+    color: var(--secondary-color);
+}

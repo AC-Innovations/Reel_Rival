@@ -1,0 +1,62 @@
+.footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
+.icon {
+    font-size: 25px;
+}
+
+.logo-bottom {
+    margin: 0 2em;
+}
+
+.mid {
+    justify-content: space-between;
+    display: flex;
+}
+
+.mid nav {
+    justify-content: space-between;
+}
+
+.mid nav ul li a:hover {
+    color: var(--accent-color);
+    transition: 1s;
+}
+
+.bottom {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.bottom p {
+    font-size: 15px;
+}
+
+.link {
+    color: var(--accent-color);
+}
+
+.ct-info {
+    margin-right: 2em;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+a.ct-l {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.ct-info-align {
+    display: flex;
+    justify-content: right;
+    gap: 0.5em;
+}
+
+.logo-f {
+    width: 200px
+}
